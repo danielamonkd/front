@@ -75,7 +75,7 @@ const ActualizarProductos = () => {
       }
     });
     //redireccionar a la pagina de admin 
-    navigate(`/home-productos/${idCategoria}`);
+    navigate(`/admin`);
 
   };
   const onSubmit = (e) => {
